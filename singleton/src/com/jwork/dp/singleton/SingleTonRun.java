@@ -10,5 +10,6 @@ public class SingleTonRun {
         SingleTonEarly.getInstance();
         SingleTonLazy.getInstance();
         SingleTonSafe.getInstance();
+        SingleTonWithHolder.getInstance();
     }
 }

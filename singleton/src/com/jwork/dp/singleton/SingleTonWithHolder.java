@@ -15,6 +15,7 @@ public class SingleTonWithHolder {
     }
 
     public static SingleTonWithHolder getInstance() {
+        System.out.println(SingleTonWithHolder.class.getName() + "-->getInstance");
         return SingleTonHolder.instance;
     }
 }
