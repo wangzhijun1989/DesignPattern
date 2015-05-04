@@ -15,9 +15,11 @@ public class SingleTonSafe {
     public static SingleTonSafe getInstance(){
         if(instance == null){
             synchronized (SingleTonSafe.class){
-                if (instance == null){
-                    instance = new SingleTonSafe();
+                SingleTonSafe temp = instance;//防止指令重组，或者instance用volatile关键字修饰
+                if (temp == null){
+                    temp = new SingleTonSafe();
                 }
+                instance = temp;
             }
         }
         System.out.println(SingleTonSafe.class.getName() + "-->getInstance");
