@@ -1,7 +1,7 @@
 package com.jwork.dp.command;
 
 /**client
- * Created by Administrator on 2015/5/5.
+ * Created by wangzhijun on 2015/5/5.
  */
 public class CommandRun {
     public static void  main(String args[]){

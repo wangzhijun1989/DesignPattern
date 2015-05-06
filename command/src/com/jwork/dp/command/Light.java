@@ -2,7 +2,7 @@ package com.jwork.dp.command;
 
 /**
  * receiver
- * Created by Administrator on 2015/5/5.
+ * Created by wangzhijun on 2015/5/5.
  */
 public class Light {
     public void lightOn(){
