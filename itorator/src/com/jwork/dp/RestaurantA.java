@@ -7,7 +7,7 @@ import java.util.ArrayList;
  * Created by wangzhijun on 2015/5/11.
  */
 public class RestaurantA {
-    private ArrayList<MenuItem> list = new ArrayList<>();
+    private ArrayList<MenuItem> list = new ArrayList<MenuItem>();
     public RestaurantA(){
         addItem("name1","name1 desc",5.6d, true);
         addItem("name2","name2 desc",10.0d, false);
