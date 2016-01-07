@@ -15,7 +15,7 @@ public class AdapterRun {
 
         Turkey turkey = new WildTurkey();//创建一个火鸡并测试行为
         turkey.fly();
-        turkey.gobble();    //s
+        turkey.gobble();
 
         Duck turkeyAdapter = new TurkeyAdapter(turkey);//适配火鸡
         testDuckBehaivor(turkeyAdapter);
