@@ -1,4 +1,4 @@
 # DesignPattern
 java design pattern
 
-java 设计模式  Demo
+java 设计模式 Demo
